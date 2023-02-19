@@ -1,17 +1,11 @@
 ---
 title: Hello World
-date: 2022-12-12
-excerpt: This is my first post
+date: 2023-02-18
+excerpt: Uma leve apresentação.
 ---
 
-Hello World! This is my first post.
+Sempre tive vontade de criar um blog para expor algumas coisas, e acho que tenho
+muito o que mostrar das minhas anotações em varios niveis. Sempre gostei muito
+de seguir diversos criadores de conteudos sobre tecnologias.
 
-## This is a heading 2
-
-This is a paragraph.
-
-This is a list:
-
-- Item 1
-- Item 2
-- Item 3
+Espero que esteja levemente bom.

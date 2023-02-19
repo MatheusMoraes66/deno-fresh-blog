@@ -16,16 +16,18 @@ export const handler: Handlers = {
 export default function PagePost(props: PageProps) {
   const { post } = props?.data || {};
   return (
-    <div class="p-4">
-      <h1 class="text-2xl font-bold">{post.title}</h1>
-      <time>{Intl.DateTimeFormat("pt").format(post.date)}</time>
-      <style dangerouslySetInnerHTML={{ __html: CSS }} />
-      <div
-        class="markdown-body"
-        dangerouslySetInnerHTML={{
-          __html: post.body,
-        }}
-      />
-    </div>
+    <main class="w-full flex px-8 flex-col justify-center items-center gap-x-8 gap-y-4">
+      <div class="w-full flex p-4 flex-col md:w-3/5">
+        <h1 class="text-5xl mb-4 text-center font-bold">{post.title}</h1>
+
+        <style dangerouslySetInnerHTML={{ __html: CSS }} />
+        <div
+          class="markdown-body"
+          dangerouslySetInnerHTML={{
+            __html: post.body,
+          }}
+        />
+      </div>
+    </main>
   );
 }
