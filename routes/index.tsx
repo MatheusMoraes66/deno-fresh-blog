@@ -17,9 +17,9 @@ export const handler: Handlers = {
 export default function Home(props: PageProps) {
   const { posts } = props.data;
   return (
-    <main class="w-full flex px-8 flex-col justify-center items-center gap-x-8 gap-y-4">
+    <main class="w-full flex px-2 md:px-8 flex-col justify-center items-center gap-x-8 gap-y-4 mt-6">
       <Hero />
-      <div class="w-full flex p-4 flex-col md:w-3/5">
+      <div class="w-full flex p-2 flex-col md:w-3/5">
         <h2 class="text-2xl font-bold mb-2">Blog</h2>
         <hr />
       </div>
